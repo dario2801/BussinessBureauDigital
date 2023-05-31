@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('./utils/font/common/Quicksand/Quicksand-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'Gilda_Display';
+  src: url('./utils/font/common/Gilda_Display/GildaDisplay-Regular.ttf');
+}
+@font-face {
+  font-family: 'Francois_One';
+  src: url('./utils/font/common/Francois_One/FrancoisOne-Regular.ttf');
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand';
+}
+
+
+
+.colorOrange {
+  background-color: #e5745d;
+}
+
+/* //MenuBar */
+.p-menubar {
+  border: 0 !important;
+  background-color: transparent !important;
+}
+
+.p-menuitem-text {
+  font-family: 'Francois_One' !important;
+  font-weight: 600;
+  color: #6a839a !important;
+}
