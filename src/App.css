@@ -41,7 +41,15 @@
 }
 
 .colorFooterOrange {
+  /* border: 0px solid #fff; */
+  position: relative;
   background-color: #fbb660;
+}
+.wave{
+  background-image: url('./utils/wave/onda-orange-footer.svg');
+  background-repeat:repeat-x;
+  height: 28px;
+  transform: translateY(1px);
 }
 
 .textOrange {
@@ -52,11 +60,6 @@
   border: 1px dashed rgba(0, 0, 0, .30) !important;
   border-radius: 0 !important;
 }
-
-/* .BorderSquare {
-  border: 1px dashed rgba(0, 0, 0, .30) !important;
-  border-radius: 0 !important;
-} */
 
 /* //MenuBar */
 .menu {
