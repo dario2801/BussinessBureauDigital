@@ -41,13 +41,17 @@
 }
 
 .colorFooterOrange {
-  /* border: 0px solid #fff; */
   position: relative;
   background-color: #fbb660;
 }
-.wave{
+
+.hoverFotter:hover {
+  opacity: .5;
+}
+
+.wave {
   background-image: url('./utils/wave/onda-orange-footer.svg');
-  background-repeat:repeat-x;
+  background-repeat: repeat-x;
   height: 28px;
   transform: translateY(1px);
 }
