@@ -39,8 +39,9 @@
 .colorOrange {
   background-color: #f1755c;
 }
+
 .textOrange {
-  color: #f1755c ;
+  color: #f1755c;
 }
 
 .Border {
@@ -118,4 +119,9 @@
   color: #f1755c !important;
   width: 14px !important;
   letter-spacing: 0.2px !important;
+}
+
+.p-rating-icon {
+  color: #f1755c !important;
+  width: 14px !important;
 }
