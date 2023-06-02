@@ -4,7 +4,7 @@ import Menubar from './menu/MenuBar';
 import Header from './header/Header';
 import Categories from './categories/Categories';
 import Arrivals from './arrivals/Arrivals';
-
+import Footer from './footer/Footer';
 
 export default function SearchResult() {
     return (
@@ -20,9 +20,11 @@ export default function SearchResult() {
                         <Categories />
                         {/* //Nuevas Llegadas */}
                         <Arrivals />
+                        {/* //Footer de la Web */}
                     </div>
                 </div>
             </div>
+            <Footer />
         </React.Fragment>
     )
 }

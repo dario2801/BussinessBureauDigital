@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <defs>
+    <path id="semicircle" fill="#FCA311" fill-opacity="1" d="M0,128C0,128,0,192,0,192S0,256,0,256C0,256,0,192,0,192C0,192,0,128,0,128Z"></path>
+  </defs>
+  <g>
+    <use xlink:href="#semicircle" x="0" y="0" />
+    <use xlink:href="#semicircle" x="120" y="0" />
+    <use xlink:href="#semicircle" x="240" y="0" />
+  </g>
+</svg>
