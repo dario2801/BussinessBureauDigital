@@ -3,6 +3,11 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import kidsaus from '../../utils/recursos/main/logo(1).png';
+import footer1 from '../../utils/recursos/main/footer1.jpg';
+import footer2 from '../../utils/recursos/main/footer2.jpg';
+import footer3 from '../../utils/recursos/main/footer3.jpg';
+import footer4 from '../../utils/recursos/main/footer4.jpg';
+import footer5 from '../../utils/recursos/main/footer5.jpg';
 
 export default function Footer() {
     const items = [
@@ -51,15 +56,37 @@ export default function Footer() {
                     <h3 className='flex align-items-center justify-content-center text-2xl text-center uppercase font-medium colorBlue Francois_One'>instagram @kidsrus</h3>
                     <span className='Guion'></span>
                 </div>
-                <div className='col-6 flex align-items-center justify-content-center my-6 colorOrange'>
-                    <div className='col h-9rem'>1</div>
-                    <div className='col h-9rem'>2</div>
-                    <div className='col h-9rem'>3</div>
-                    <div className='col h-9rem'>4</div>
+                <div className='col-6 flex align-items-center justify-content-center my-6'>
+                    <div className='col'>
+                        <img className='w-full hoverFotter'
+                            src={footer1}
+                            alt='imagen1' />
+                    </div>
+                    <div className='col'>
+                        <img className='w-full hoverFotter'
+                            src={footer2}
+                            alt='imagen1' />
+                    </div>
+                    <div className='col'>
+                        <img className='w-full hoverFotter'
+                            src={footer3}
+                            alt='imagen1' />
+                    </div>
+                    <div className='col'>
+                        <img className='w-full hoverFotter'
+                            src={footer4}
+                            alt='imagen1' />
+                    </div>
+                    <div className='col'>
+                        <img className='w-full hoverFotter'
+                            src={footer5}
+                            alt='imagen1' />
+                    </div>
                 </div>
+                <span className='wave w-full'></span>
                 <div className='col-12  m-0 flex align-items-center justify-content-center colorFooterOrange'>
                     <div className='grid mx-0'>
-                        <div className='col-12 flex align-items-center justify-content-center mt-3'>
+                        <div className='col-12 flex align-items-center justify-content-center mt-7'>
                             <img
                                 src={kidsaus}
                                 alt='kids_a_us_logo'
@@ -81,12 +108,12 @@ export default function Footer() {
                         </div>
                         <div className='col-12 flex align-items-center justify-content-center'>
                             <span className='text-0 capitalize'>privacy policy / </span>
-                            <span className='text-white-alpha-50'> This is a sample of website - cmsmaster © 2022 / All Rights Reserved</span>
+                            <span className='text-white-alpha-50'>This is a sample of website - cmsmaster © 2022 / All Rights Reserved</span>
                         </div>
                     </div>
                 </div>
                 <span className='text-800 text-center text-sm pr-3 my-2'>This website use cookies to improve your experience. We'll assume you're ok with, but you can opt- if you wish </span>
-                <button className='bg-black-alpha-90 text-center text-100 my-2 px-2 border border-black-1'>Accept</button>
+                <button className='bg-black-alpha-90 text-center text-100 my-2 px-2 py-1 border border-none'>Accept</button>
             </footer>
         </React.Fragment>
     );

@@ -64,7 +64,16 @@
   border: 1px dashed rgba(0, 0, 0, .30) !important;
   border-radius: 0 !important;
 }
-
+.BorderInput {
+  border: 1px dashed rgb(255, 255, 255) !important;
+  border-radius: 0 !important;
+}
+.p-inputtext{
+  background-color: transparent !important;
+}
+::placeholder {
+  color: white;
+}
 /* //MenuBar */
 .menu {
   font-family: 'Francois_One' !important;

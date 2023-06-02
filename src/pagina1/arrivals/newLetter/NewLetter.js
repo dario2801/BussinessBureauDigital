@@ -1,4 +1,5 @@
 import React from 'react';
+import { InputText } from "primereact/inputtext";
 // import { InputText } from "primereact/inputtext";
 // import forBabies from '../../../utils/json/ForBabies.json';
 // import forHome from '../../../utils/json/ForHome.json';
@@ -13,6 +14,15 @@ import React from 'react';
 // const forPlayArray = forPlay;
 
 export default function NewLetter() {
+    const [value, setValue] = React.useState('');
+
+    const handleSetNull = () => {
+        setValue('');
+    };
+    const handleOnChange = e => {
+        setValue(e.target.value);
+    };
+
     return (
         <React.Fragment>
             <div className='flex flex-wrap align-items-center justify-content-center mt-5 colorOrange Francois_One'>
@@ -21,11 +31,15 @@ export default function NewLetter() {
                         <span className='col-12 text-0 text-2xl pt-5 pb-0 text-center'>join our</span>
                         <span className='col-12 text-0 text-2xl pt-2 pb-2 text-center'>newsletter</span>
                         <div className="max-w-20rem w-full flex flex-column align-items-center justify-content-center">
-                            <span className=' col-12 w-full text-0 colorOrange border-white Border my-3 py-3 pl-3'>
-                                Your Email Address*
-                            </span>
+                            <InputText
+                                onChange={handleOnChange}
+                                value={value}
+                                className='col-12 w-full text-0 colorOrange border-white BorderInput my-3 py-3 pl-3'
+                                placeholder="Your Email Address*" />
                             <span className='col-12 surface-0 mb-2'>
                                 <button
+                                    type="submit"
+                                    onClick={handleSetNull}
                                     className='w-full surface-0 uppercase text-xs  py-2 border border-orange-500 textOrange Francois_One Border'>
                                     subscribe
                                 </button>
