@@ -1,16 +1,16 @@
 import React from 'react';
-import { InputText } from "primereact/inputtext";
-import forBabies from '../../../utils/json/ForBabies.json';
-import forHome from '../../../utils/json/ForHome.json';
-import forGirls from '../../../utils/json/ForGirls.json';
-import forBoys from '../../../utils/json/ForBoys.json';
-import forPlay from '../../../utils/json/ForPlay.json';
+// import { InputText } from "primereact/inputtext";
+// import forBabies from '../../../utils/json/ForBabies.json';
+// import forHome from '../../../utils/json/ForHome.json';
+// import forGirls from '../../../utils/json/ForGirls.json';
+// import forBoys from '../../../utils/json/ForBoys.json';
+// import forPlay from '../../../utils/json/ForPlay.json';
 
-const forBabiesArray = forBabies;
-const forHomeArray = forHome;
-const forGirlsArray = forGirls;
-const forBoysArray = forBoys;
-const forPlayArray = forPlay;
+// const forBabiesArray = forBabies;
+// const forHomeArray = forHome;
+// const forGirlsArray = forGirls;
+// const forBoysArray = forBoys;
+// const forPlayArray = forPlay;
 
 export default function NewLetter() {
     return (
@@ -24,9 +24,9 @@ export default function NewLetter() {
                             <span className=' col-12 w-full text-0 colorOrange border-white Border my-3 py-3 pl-3'>
                                 Your Email Address*
                             </span>
-                            <span className='col-12 surface-0'>
+                            <span className='col-12 surface-0 mb-2'>
                                 <button
-                                    className='w-full  surface-0 uppercase text-xs   Border py-2 border border-orange-500 textOrange Francois_One'>
+                                    className='w-full surface-0 uppercase text-xs  py-2 border border-orange-500 textOrange Francois_One Border'>
                                     subscribe
                                 </button>
                             </span>
