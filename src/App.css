@@ -1,38 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: .3s ease-in-out;
+}
+
 @font-face {
   font-family: 'Quicksand';
   src: url('./utils/font/common/Quicksand/Quicksand-VariableFont_wght.ttf');
 }
+
 @font-face {
   font-family: 'Gilda_Display';
   src: url('./utils/font/common/Gilda_Display/GildaDisplay-Regular.ttf');
 }
+
 @font-face {
   font-family: 'Francois_One';
   src: url('./utils/font/common/Francois_One/FrancoisOne-Regular.ttf');
 }
 
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.Quicksand {
   font-family: 'Quicksand';
 }
 
+.Gilda_Display {
+  font-family: 'Gilda_Display';
+}
 
+.Francois_One {
+  font-family: 'Francois_One';
+}
+
+.colorBlue {
+  color: #6a839a;
+}
 
 .colorOrange {
-  background-color: #e5745d;
+  background-color: #f1755c;
 }
+.textOrange {
+  color: #f1755c ;
+}
+
+.Border {
+  border: 1px dashed rgba(0, 0, 0, .30) !important;
+  border-radius: 0 !important;
+}
+
+/* .BorderSquare {
+  border: 1px dashed rgba(0, 0, 0, .30) !important;
+  border-radius: 0 !important;
+} */
 
 /* //MenuBar */
-.p-menubar {
-  border: 0 !important;
-  background-color: transparent !important;
+.menu {
+  font-family: 'Francois_One' !important;
+  font-weight: 500;
+  color: #6a839a !important;
+  list-style: none;
+  display: flex;
 }
 
-.p-menuitem-text {
-  font-family: 'Francois_One' !important;
-  font-weight: 600;
-  color: #6a839a !important;
+.menu-item {
+  margin-right: 20px;
+}
+
+.menu-item:hover {
+  color: #f1755c;
+}
+
+.menu-item:hover::after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  background-image: url("./utils/recursos/main/home-8.png");
+  background-size: 100% 100%;
+  width: 30px;
+  height: 10px;
+}
+
+.Badge {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  font-size: 10px;
+  background-color: #f1755c;
+  border-radius: 50%;
+  transform: translate(10px, -30px);
+}
+
+/* //ARRIVALs */
+.Guion {
+  display: block;
+  margin: 0 auto;
+  background-image: url("./utils/recursos/main/home-8.png");
+  background-size: 100% 100%;
+  width: 3rem;
+  height: 10px;
+}
+
+.ContainerLupe {
+  width: 2.8rem !important;
+  height: 3rem !important;
+  padding: 5px !important;
+  background-color: #f1755c;
+}
+
+.Lupe {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 8px !important;
+  border: 2px dashed #FFF !important;
+}
+
+.p-rating .p-rating-item.p-rating-item-active .p-rating-icon {
+  color: #f1755c !important;
+  width: 14px !important;
+  letter-spacing: 0.2px !important;
 }
