@@ -23,7 +23,7 @@ export default function ImageDesccription() {
           <div className="col-12 m-0 p-0 flex align-items-center justify-content-center">
             <ReactImageMagnify {...{
               smallImage: {
-                alt: 'Wristwatch by Ted Baker London',
+                alt: 'Image Products',
                 isFluidWidth: true,
                 src: img1
               },
