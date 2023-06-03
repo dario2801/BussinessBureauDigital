@@ -1,5 +1,8 @@
 import React from 'react';
+import { FaRegHeart } from "react-icons/fa";
+import { BsSearch } from "react-icons/bs";
 import prueba from '../../../utils/recursos/for home/for-home-13-1-580x870.jpg'
+import prueba2 from '../../../utils/recursos/for home/for-home-13-580x870.jpg'
 import data from '../../../utils/json/ForBabies.json'
 
 function getRandomImages(data) {
@@ -18,8 +21,22 @@ function getRandomImages(data) {
 };
 
 export default function Items() {
+
     const images = getRandomImages(data);
+    const [isHovering, setIsHovering] = React.useState(prueba);
+
+
+    const handleMouseOver = () => {
+        setIsHovering(prueba2);
+    };
+
+    const handleMouseOut = () => {
+        setIsHovering(prueba);
+    };
+
+
     const outStock = 'uppercase stock colorBlue Francois_One';
+    const addToCar = 'w-full flex align-items-center justify-content-center absolute uppercase colorOrange  addToCar'
     return (
         <React.Fragment>
             {[0, 1, 2].map((rowIndex) => (
@@ -29,12 +46,32 @@ export default function Items() {
                     {images.slice(rowIndex * 3, rowIndex * 3 + 3).map((image) => (
                         <div
                             key={image.nombre}
-                            className='grid mx-0 w-20rem relative font-bold  mx-3'>
-                            <img
-                                className='w-full'
-                                // src={`../../../utils/recursos${image.url[0]}${image.url[0]}`}
-                                src={prueba}
-                                alt={`Prodcuto ${image.nombre}`} />
+                            className='grid mx-0 w-20rem relative font-bold  mx-3 '>
+                            <div className='relative overflow-y-hidden'>
+                                <img
+                                    id='imgContainer'
+                                    className='w-full'
+                                    // src={`../../../utils/recursos${image.url[0]}${image.url[0]}`}
+                                    src={isHovering}
+                                    onMouseOver={handleMouseOver}
+                                    onMouseOut={handleMouseOut}
+                                    alt={`Prodcuto ${image.nombre}`} />
+                                {image.en_stock ?
+                                    <div className={`${addToCar}`} >
+                                        <span className='py-1 text-center text-0 border-white Francois_One Border '>
+                                            <FaRegHeart className='text-0 mx-3' />
+                                            add to car
+                                            <BsSearch className='text-0 mx-3' />
+                                        </span>
+                                    </div> :
+                                    <div className={`${addToCar}`} >
+                                        <span className='py-1 text-center text-0 border-white Francois_One Border '>
+                                            <FaRegHeart className='text-0 mx-8' />
+                                        </span>
+                                    </div>
+                                }
+
+                            </div>
                             <span className={`${!image.en_stock ? outStock : 'hidden'}`}>out of stock</span>
                             <span className='w-full text-sm text-center my-1 textOrange'>{`${image.categoria}`}</span>
                             <span className='w-full text-xl text-center colorBlue my-1 Gilda_Display'>{`${image.nombre}`}</span>
