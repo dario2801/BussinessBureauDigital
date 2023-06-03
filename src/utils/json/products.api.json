@@ -1,0 +1,22 @@
+[
+    {
+        "nombre": "Nombre",
+        "sku": "TEST01",
+        "category": {
+            "slug": "baby-and-toddler",
+            "name": "Baby & Toddler"
+        },
+        "images": [
+            {
+                "filename": "for-babies-1-1-580x870.jpg"
+            },
+            {
+                "filename": "for-babies-1-580x870.jpg"
+            }
+        ],
+        "price": 33.45,
+        "rating": 4,
+        "descripcion": "Descripción del producto",
+        "en_stock": true
+    }
+]
