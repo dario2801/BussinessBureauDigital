@@ -1,7 +1,7 @@
 import React from "react";
 import { InputText } from "primereact/inputtext";
 import { Rating } from "primereact/rating";
-import { Button } from "primereact/button";
+import ReactImageMagnify from 'react-image-magnify';
 import Table from "./Table";
 import img1 from "../../utils/recursos/main/girls-2-2-580x870.jpg";
 import "../../App.css";
@@ -21,10 +21,18 @@ export default function ImageDesccription() {
       <div className="col-3 p-0">
         <div className="grid mx-0 w-full">
           <div className="col-12 m-0 p-0 flex align-items-center justify-content-center">
-            <img
-              className="w-full"
-              src={img1}
-              alt='description' />
+            <ReactImageMagnify {...{
+              smallImage: {
+                alt: 'Image Products',
+                isFluidWidth: true,
+                src: img1
+              },
+              largeImage: {
+                src: img1,
+                width: 1200,
+                height: 1800
+              }
+            }} />
           </div>
           <div className="grid mx-0 w-full mt-2  max-w-14rem p-0">
             <div className="col max-w-4rem">

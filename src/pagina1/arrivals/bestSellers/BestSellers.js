@@ -5,7 +5,7 @@ import forHome from '../../../utils/json/ForHome.json';
 import forGirls from '../../../utils/json/ForGirls.json';
 import forBoys from '../../../utils/json/ForBoys.json';
 import forPlay from '../../../utils/json/ForPlay.json';
-import prueba from "../../../utils/recursos/for babies/for-babies-1-1-580x870.jpg"
+import prueba from "../../../utils/recursos/for play/toys-3-580x870.jpg"
 
 
 export default function BestSellers() {
@@ -53,7 +53,6 @@ export default function BestSellers() {
                     {fors.map((index, i) => {
                         const first = 0;
                         const class1 = first === i ? 'pt-5' : i === fors.length - 1 ? 'pb-4' : 'py-1';
-                        console.log(class1)
                         return (
                             <div
                                 key={index.label}
