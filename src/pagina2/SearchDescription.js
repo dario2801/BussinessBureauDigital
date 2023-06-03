@@ -16,7 +16,7 @@ export default function Search() {
           {/* //descripcion de producto */}
           <ImageDesccription />
           {/* parrafo descriptivo */}
-          {/* <ParagraphDesccription /> */}
+           <ParagraphDesccription /> 
         </div>
       </div>
     </React.Fragment>
