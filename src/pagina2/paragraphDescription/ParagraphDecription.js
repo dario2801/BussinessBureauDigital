@@ -45,7 +45,7 @@ export default function ParagraphDesccription() {
   // const additionalInfoText = ();
   const reviewText = "AKI VA review";
 
-  let selectedText = null;
+  let selectedText = descriptionText;
 
   if (selectedTab === 0) {
     selectedText = descriptionText;
