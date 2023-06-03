@@ -7,6 +7,15 @@ import img1 from "../../utils/recursos/main/girls-2-2-580x870.jpg";
 import "../../App.css";
 
 export default function ImageDesccription() {
+  const [value, setValue] = React.useState('');
+
+  const handleSetNull = () => {
+    setValue('');
+  };
+  const handleOnChange = e => {
+    setValue(e.target.value);
+  };
+
   return (
     <div className="grid mx-0 w-full flex align-items-center justify-content-evenly my-4">
       <div className="col-3">
@@ -36,12 +45,12 @@ export default function ImageDesccription() {
                 src={img1}
                 alt='description' />
             </div>
-            <div className="col">
+            {/* <div className="col">
               <img
                 className="w-full"
                 src={img1}
                 alt='description' />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -65,18 +74,20 @@ export default function ImageDesccription() {
               rhoncus dui, sit amet bibendum sem magna eget velit.
             </p>
           </div>
-          <div class="grid mx-0 flex align-items-center justify-content-start">
-            <div class="w-4rem mr-2">
+          <div className="grid mx-0 flex align-items-center justify-content-start">
+            <div className="w-4rem mr-2">
               <InputText
+                onChange={handleOnChange}
+                value={value}
                 className='w-full Border'
-                type="number"
-                placeholder="1" />
+                placeholder="0" />
             </div>
-            <div class="col-4 h-3rem flex align-items-center justify-content-center uppercase colorOrange Francois_One">
-              <span
-                className='w-25rem py-2 text-center text-sm text-0  border-white BorderInput'>
+            <div className="col-4 h-3rem flex align-items-center justify-content-center uppercase colorOrange Francois_One">
+              <button
+                onClick={handleSetNull}
+                className='w-25rem py-2 text-center text-sm text-0  border-white BorderInput colorOrange'>
                 add to car
-              </span>
+              </button>
             </div>
           </div>
           <div className="w-full my-3">
