@@ -17,6 +17,7 @@ export default function Search() {
           <ImageDesccription />
           {/* parrafo descriptivo */}
            <ParagraphDesccription /> 
+            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
         </div>
       </div>
     </React.Fragment>
