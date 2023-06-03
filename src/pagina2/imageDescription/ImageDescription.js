@@ -18,7 +18,7 @@ export default function ImageDesccription() {
 
   return (
     <div className="grid mx-0 w-full flex align-items-center justify-content-evenly my-4">
-      <div className="col-3">
+      <div className="col-3 p-0">
         <div className="grid mx-0 w-full">
           <div className="col-12 m-0 p-0 flex align-items-center justify-content-center">
             <img
@@ -26,37 +26,37 @@ export default function ImageDesccription() {
               src={img1}
               alt='description' />
           </div>
-          <div className="grid mx-0 w-full mt-2 flex justify-content-between">
-            <div className="col">
+          <div className="grid mx-0 w-full mt-2  max-w-14rem p-0">
+            <div className="col max-w-4rem">
               <img
                 className="w-full"
                 src={img1}
                 alt='description' />
             </div>
-            <div className="col">
+            <div className="col max-w-4rem">
               <img
                 className="w-full"
                 src={img1}
                 alt='description' />
             </div>
-            <div className="col">
+            <div className="col max-w-4rem">
               <img
                 className="w-full"
                 src={img1}
                 alt='description' />
             </div>
-            {/* <div className="col">
+            <div className="col max-w-4rem">
               <img
                 className="w-full"
                 src={img1}
                 alt='description' />
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
       <div className="col-7">
         <div className="grid mx-0 flex align-items-center ">
-          <div className="col-12">
+          <div className="col-12 p-0">
             <span className="colorBlue Francois_One">$22.00</span>
             <Rating
               className="mt-3 mb-4 p-rating"
@@ -64,9 +64,7 @@ export default function ImageDesccription() {
               readOnly
               cancel={false}
             />
-          </div>
-          <div className="col-12 my-3">
-            <p className="w-full Quicksand">
+            <p className="my-3 w-full Quicksand">
               Nam non justo quis erat malesuada bibendum et in velit. Nulla
               facilisi. Maecenas vel sapien euismod, ultricies mauris vitae,
               sollicitudin tellus. Praesent ac massa justo. Aliquam erat
@@ -85,7 +83,7 @@ export default function ImageDesccription() {
             <div className="col-4 h-3rem flex align-items-center justify-content-center uppercase colorOrange Francois_One">
               <button
                 onClick={handleSetNull}
-                className='w-25rem py-2 text-center text-sm text-0  border-white BorderInput colorOrange'>
+                className='w-25rem py-2 text-center  text-0 uppercase  border-white BorderInput colorOrange Francois_One'>
                 add to car
               </button>
             </div>
@@ -93,7 +91,7 @@ export default function ImageDesccription() {
           <div className="w-full my-3">
             <span className="Quicksand">
               The product is already in the wishlist!
-              <strong className="Quicksand colorBlue">Browse Wishlist</strong>
+              <strong className="Quicksand colorBlue"> Browse Wishlist</strong>
             </span>
           </div>
           <div className="w-full mt-5">

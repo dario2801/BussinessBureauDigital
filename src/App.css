@@ -64,16 +64,20 @@
   border: 1px dashed rgba(0, 0, 0, .30) !important;
   border-radius: 0 !important;
 }
+
 .BorderInput {
   border: 1px dashed rgb(255, 255, 255) !important;
   border-radius: 0 !important;
 }
-.p-inputtext{
+
+.p-inputtext {
   background-color: transparent !important;
 }
+
 ::placeholder {
   color: white;
 }
+
 /* //MenuBar */
 .menu {
   font-family: 'Francois_One' !important;
@@ -144,4 +148,29 @@
 .p-rating-icon {
   color: #f1755c !important;
   width: 14px !important;
+}
+
+/* //outStock */
+.stock {
+  position: absolute;
+  background-color: #ffffff;
+  width: 6rem;
+  height: auto;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transform: translate(-102px, 10px);
+  z-index: 3;
+}
+
+/* //Description Page 2 */
+/* .p-tabmenu .p-tabmenu-nav {
+  border: 0px !important;
+} */
+
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
+  border-color: #f1755c !important;
+  color: #f1755c !important;
 }

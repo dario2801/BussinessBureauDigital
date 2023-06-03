@@ -17,21 +17,21 @@ export default function Categories() {
   const fors = [
     {
       label: "SKU:",
-      numbers: "001",
+      description: "001",
     },
     {
       label: "Category:",
-      numbers: "For Girls",
+      description: "For Girls",
     },
     {
       label: "Tags:",
-      numbers: "Blouse, Girls",
+      description: "Blouse, Girls",
     },
   ];
   return (
     <React.Fragment>
       <div className="flex align-items-center justify-content-left">
-        <div className="flex w-full align-items-left justify-content-left px-3 py-1 h-auto font-light Francois_One Border">
+        <div className="flex w-full align-items-left justify-content-left px-3 py-1 h-auto font-semibold Quicksand  Border">
           <div className="grid mx-0 w-full">
             {fors.map((index, i) => {
               console.log(i);
@@ -43,12 +43,14 @@ export default function Categories() {
               return (
                 <div
                   key={index.label}
-                  className={`col-12 flex align-items-center justify-content-between w-full  border-400 ${SpacingClass} ${borderBottomClass}`}
+                  className={`col-12 flex align-items-center justify-content-start  border-400 ${SpacingClass} ${borderBottomClass}`}
                 >
-                  <a className="no-underline colorBlue w-full" href="./">
-                    {index.label}
-                  </a>
-                  <span className="colorBlue w-full">{index.numbers}</span>
+                  <div className="w-15rem">
+                    <span className="colorBlue" >
+                      {index.label}
+                    </span>
+                  </div>
+                  <span className="w-full ">{index.description}</span>
                 </div>
               );
             })}
