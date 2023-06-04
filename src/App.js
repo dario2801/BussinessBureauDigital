@@ -1,13 +1,10 @@
-import {
-  BrowserRouter as Router,
-  Route, Routes
-} from "react-router-dom";
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
 import "primereact/resources/themes/lara-light-indigo/theme.css";
 import "primereact/resources/primereact.min.css";
 import "/node_modules/primeflex/primeflex.css";
-import SearchResult from './pagina1/SearchResult';
-import ProductsResult from './pagina2/ProductsResult'
+import SearchResult from "./pagina1/SearchResult";
+import ProductsResult from "./pagina2/ProductsResult";
 
 function App() {
   return (
@@ -18,6 +15,6 @@ function App() {
       </Routes>
     </Router>
   );
-};
+}
 
 export default App;

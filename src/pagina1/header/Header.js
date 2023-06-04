@@ -9,7 +9,7 @@ export default function Header() {
                     className='w-full'
                     alt='Bebé y perrito' />
             </div>
-            <div className='flex align-content-between flex-wrap col-3'>
+            <div className='col-3 flex align-content-between flex-wrap'>
                 <img src={imagenChicas}
                     className='w-full'
                     alt='Dos niñas' />

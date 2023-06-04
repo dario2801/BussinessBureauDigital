@@ -2,34 +2,34 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 @font-face {
-  font-family: 'Quicksand';
-  src: url('./utils/font/common/Quicksand/Quicksand-VariableFont_wght.ttf');
+  font-family: "Quicksand";
+  src: url("./utils/font/common/Quicksand/Quicksand-VariableFont_wght.ttf");
 }
 
 @font-face {
-  font-family: 'Gilda_Display';
-  src: url('./utils/font/common/Gilda_Display/GildaDisplay-Regular.ttf');
+  font-family: "Gilda_Display";
+  src: url("./utils/font/common/Gilda_Display/GildaDisplay-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'Francois_One';
-  src: url('./utils/font/common/Francois_One/FrancoisOne-Regular.ttf');
+  font-family: "Francois_One";
+  src: url("./utils/font/common/Francois_One/FrancoisOne-Regular.ttf");
 }
 
 .Quicksand {
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
 }
 
 .Gilda_Display {
-  font-family: 'Gilda_Display';
+  font-family: "Gilda_Display";
 }
 
 .Francois_One {
-  font-family: 'Francois_One';
+  font-family: "Francois_One";
 }
 
 .colorBlue {
@@ -46,11 +46,11 @@
 }
 
 .hoverFotter:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .wave {
-  background-image: url('./utils/wave/onda-orange-footer.svg');
+  background-image: url("./utils/wave/onda-orange-footer.svg");
   background-repeat: repeat-x;
   height: 28px;
   transform: translateY(1px);
@@ -61,7 +61,7 @@
 }
 
 .Border {
-  border: 1px dashed rgba(0, 0, 0, .30) !important;
+  border: 1px dashed rgba(0, 0, 0, 0.3) !important;
   border-radius: 0 !important;
 }
 
@@ -80,7 +80,7 @@
 
 /* //MenuBar */
 .menu {
-  font-family: 'Francois_One' !important;
+  font-family: "Francois_One" !important;
   font-weight: 500;
   color: #6a839a !important;
   list-style: none;
@@ -96,7 +96,7 @@
 }
 
 .menu-item:hover::after {
-  content: '';
+  content: "";
   display: block;
   margin: 0 auto;
   background-image: url("./utils/recursos/main/home-8.png");
@@ -136,7 +136,7 @@
   width: 2.5rem;
   height: 2.5rem;
   padding: 8px !important;
-  border: 2px dashed #FFF !important;
+  border: 2px dashed #fff !important;
 }
 
 .p-rating .p-rating-item.p-rating-item-active .p-rating-icon {
@@ -187,10 +187,13 @@ img.imgContainer:hover + .addToCar{
   transform: translateY(-3.1rem);
 }
 
-
 /* //Description Page 2 */
-
+.p-tabmenu .p-tabmenu-nav {
+  border: 0px !important;
+}
 .p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
-  border-color: #f1755c !important;
+  border-bottom: 10px solid transparent !important;
+  border-image: url("/src/utils/recursos/main/home-8.png") 12 round !important;
+  border-image-repeat: stretch;
   color: #f1755c !important;
 }
