@@ -16,7 +16,7 @@ import prueba3 from '../../utils/recursos/for home/for-home-14-580x870.jpg';
 import prueba4 from '../../utils/recursos/for home/for-home-1-580x870.jpg';
 import data from '../../utils/json/ForBabies.json';
 
-export default function Footer(props) {
+export default function Footer() {
     const [page, setPage] = React.useState(1);
     const [stock, setStock] = React.useState(false);
 

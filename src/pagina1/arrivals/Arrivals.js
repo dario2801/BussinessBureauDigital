@@ -12,12 +12,12 @@ export default function Arrivals() {
                 <h3 className='text-2xl text-center uppercase font-medium colorBlue Francois_One'>new arrivals</h3>
                 <span className='Guion'></span>
             </div>
-            <div className='col-3 max-w-20rem mt-6'>
+            <div className='col-3 max-w-20rem'>
                 <Categories />
                 <BestSellers />
                 <NewLetter />
             </div>
-            <div className='col-8 mt-5'>
+            <div className='col-8'>
                 <Items />
             </div>
         </React.Fragment>

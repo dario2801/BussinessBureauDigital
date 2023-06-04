@@ -152,7 +152,6 @@
 
 /* //outStock */
 .stock {
-  position: absolute;
   background-color: #ffffff;
   width: 6rem;
   height: auto;
@@ -161,7 +160,6 @@
   font-size: 12px;
   padding-top: 5px;
   padding-bottom: 5px;
-  transform: translate(112px, 10px);
   z-index: 3;
 }
 
@@ -185,7 +183,7 @@
   transform: translateY(0);
 }
 
-#imgContainer:hover + .addToCar{
+img.imgContainer:hover + .addToCar{
   transform: translateY(-3.1rem);
 }
 

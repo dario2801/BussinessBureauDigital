@@ -6,6 +6,7 @@ import forHome from '../../../utils/json/ForHome.json';
 import forGirls from '../../../utils/json/ForGirls.json';
 import forBoys from '../../../utils/json/ForBoys.json';
 import forPlay from '../../../utils/json/ForPlay.json';
+import listProductFake from '../../../utils/json/products.api.json';
 
 const forBabiesArray = forBabies;
 const forHomeArray = forHome;
@@ -13,7 +14,16 @@ const forGirlsArray = forGirls;
 const forBoysArray = forBoys;
 const forPlayArray = forPlay;
 
+const listCategory = [
+    { name: "For Babies", slug: "for-babies" },
+    { name: "For Boys", slug: "for-boys" },
+    { name: "For Girls", slug: "for-girls" },
+    { name: "For Home", slug: "for-home" },
+    { name: "For Play", slug: "for-play" }
+];
+
 export default function Categories() {
+    const [listCategory, setListCategory] = React.useState();
     const fors = [
         {
             label: "For Babies",
@@ -41,6 +51,19 @@ export default function Categories() {
             numbers: `(${forPlayArray.length})`
         },
     ];
+
+    React.useEffect(() => {
+        let listCategory = [];
+        setTimeout(() => {
+            listProductFake.forEach(ele => {
+                if (listCategory.length === 0 || !listCategory.same(cat => cat.slug === ele.category.slug)) {
+                    listCategory.push({ name: "For Babies", slug: "for-babies" });
+                }
+            });
+            setListCategory();
+        }, []);
+    }, []);
+
     return (
         <React.Fragment>
             <span className="max-w-20rem w-full flex align-items-center justify-content-center">
