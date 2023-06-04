@@ -4,7 +4,8 @@ import Menubar from "./../pagina1/menu/MenuBar";
 import SeccionDesccription from "./headerDescription/SeccionDescription";
 import ImageDesccription from "./imageDescription/ImageDescription";
 import ParagraphDesccription from "./paragraphDescription/ParagraphDecription";
-import Footer from '../pagina1/footer/Footer';
+import Footer from "../pagina1/footer/footer";
+
 export default function Search() {
   return (
     <React.Fragment>
