@@ -3,7 +3,7 @@ import "../../App.css";
 
 export default function SeccionDesccription(props) {
   return (
-    <header className="grid mx-0  colorBlue my-2 Border">
+    <header className="grid w-full  colorBlue my-2 Border">
       <div className="mt-4 col-12 flex align-items-center justify-content-center ">
         <h1 className="font-light colorBlue Gilda_Display">Blue Blouse</h1>
       </div>
