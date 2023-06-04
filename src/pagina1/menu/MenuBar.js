@@ -3,8 +3,6 @@ import logo from '../../utils/recursos/main/logo.png';
 import { FaRegHeart } from "react-icons/fa";
 import { BsCart } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
-import { Badge } from 'primereact/badge';
-import { Menubar } from 'primereact/menubar';
 
 import '../../App.css';
 
@@ -49,7 +47,6 @@ export default function MenuBar() {
         },
         {
             icon: <BsCart />,
-            badge: <Badge value="2" />
         },
         {
             icon: <BsSearch />,

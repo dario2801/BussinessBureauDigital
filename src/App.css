@@ -161,9 +161,30 @@
   font-size: 12px;
   padding-top: 5px;
   padding-bottom: 5px;
+  transform: translate(112px, 10px);
+  z-index: 3;
+}
+
+.stockMiniatura {
+  position: absolute;
+  background-color: #ffffff;
+  width: 6rem;
+  height: auto;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   transform: translate(-102px, 10px);
   z-index: 3;
 }
+
+/* //addToCar */
+.addToCar{
+  height: 45px;
+  transform: translateY(18.2rem);
+}
+
 
 /* //Description Page 2 */
 /* .p-tabmenu .p-tabmenu-nav {

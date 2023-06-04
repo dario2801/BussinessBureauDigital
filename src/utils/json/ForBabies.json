@@ -1,9 +1,10 @@
 [
     {
-        "nombre": "Nombre",
+        "nombre": "Nombre 01",
+        "categoria":"For Babies",
         "url": [
-            "recursos/for-babies-1-1-580x870.jpg",
-            "recursos/for-babies-1-580x870.jpg"
+            "/for babies/for-babies-1-1-580x870.jpg",
+            "/for babies/for-babies-1-580x870.jpg"
         ],
         "precio": 33.45,
         "estrellas": 4,
@@ -11,100 +12,109 @@
         "en_stock": true
     },
     {
-        "nombre": "Nombre",
+        "nombre": "Nombre 02",
+        "categoria":"For Babies",
         "url": [
-            "recursos/for-babies-2-1-580x870.jpg",
-            "recursos/for-babies-2-580x870.jpg"
+            "/for babies/for-babies-2-1-580x870.jpg",
+            "/for babies/for-babies-2-580x870.jpg"
         ],
         "precio": 12,
         "estrellas": 3,
         "descripcion": null,
-        "en_stock": null
+        "en_stock": false
     },
     {
-        "nombre": "Nombre",
+        "nombre": "Nombre 03",
+        "categoria":"For Babies",
         "url": [
-            "recursos/for-babies-3-1-580x870.jpg",
-            "recursos/for-babies-3-580x870.jpg"
+            "/for babies/for-babies-3-1-580x870.jpg",
+            "/for babies/for-babies-3-580x870.jpg"
         ],
-        "precio": null,
+        "precio":24.00 ,
         "estrellas": null,
         "descripcion": null,
-        "en_stock": null
+        "en_stock": true
     },
     {
-        "nombre": "Nombre",
+        "nombre": "Nombre 04",
+        "categoria":"For Babies",
         "url": [
-            "recursos/for-babies-4-1-580x870.jpg",
-            "recursos/for-babies-4-580x870.jpg"
+            "/for babies/for-babies-4-1-580x870.jpg",
+            "/for babies/for-babies-4-580x870.jpg"
         ],
-        "precio": null,
+        "precio": 12.00,
         "estrellas": null,
         "descripcion": null,
-        "en_stock": null
+        "en_stock": true
     },
     {
-        "nombre": "Nombre",
+        "nombre": "Nombre 05",
+        "categoria":"For Babies",
         "url": [
-            "recursos/for-babies-5-1-580x870.jpg",
-            "recursos/for-babies-5-580x870.jpg"
+            "/for babies/for-babies-5-1-580x870.jpg",
+            "/for babies/for-babies-5-580x870.jpg"
         ],
-        "precio": null,
+        "precio": 18.00,
         "estrellas": null,
         "descripcion": null,
-        "en_stock": null
+        "en_stock": true
     },
     {
-        "nombre": "Nombre",
+        "nombre": "Nombre 06",
+        "categoria":"For Babies",
         "url": [
-            "recursos/for-babies-6-1-580x870.jpg",
-            "recursos/for-babies-6-580x870.jpg"
+            "/for babies/for-babies-6-1-580x870.jpg",
+            "/for babies/for-babies-6-580x870.jpg"
         ],
-        "precio": null,
+        "precio": 3.00,
         "estrellas": null,
         "descripcion": null,
-        "en_stock": null
+        "en_stock": false
     },
     {
-        "nombre": "Nombre",
+        "nombre": "Nombre 07",
+        "categoria":"For Babies",
         "url": [
-            "recursos/for-babies-7-1-580x870.jpg",
-            "recursos/for-babies-7-580x870.jpg"
+            "/for babies/for-babies-7-1-580x870.jpg",
+            "/for babies/for-babies-7-580x870.jpg"
         ],
-        "precio": null,
+        "precio": 12.99,
         "estrellas": null,
         "descripcion": null,
-        "en_stock": null
+        "en_stock": true
     },
     {
-        "nombre": "Nombre",
+        "nombre": "Nombre 08",
+        "categoria":"For Babies",
         "url": [
-            "recursos/for-babies-8-1-580x870.jpg",
-            "recursos/for-babies-8-580x870.jpg"
+            "/for babies/for-babies-8-1-580x870.jpg",
+            "/for babies/for-babies-8-580x870.jpg"
         ],
-        "precio": null,
+        "precio": 13.99,
         "estrellas": null,
         "descripcion": null,
-        "en_stock": null
+        "en_stock": false
     },
     {
-        "nombre": "Nombre",
+        "nombre": "Nombre 09",
+        "categoria":"For Babies",
         "url": [
-            "recursos/for-babies-9-1-580x870.jpg",
-            "recursos/for-babies-9-580x870.jpg"
+            "/for-babies-9-1-580x870.jpg",
+            "/for-babies-9-580x870.jpg"
         ],
-        "precio": null,
+        "precio": 17.05,
         "estrellas": null,
         "descripcion": null,
-        "en_stock": null
+        "en_stock": true
     },
     {
-        "nombre": "Nombre",
+        "nombre": "Nombre 10",
+        "categoria":"For Babies",
         "url": [
-            "recursos/for-babies-10-1-580x870.jpg",
-            "recursos/for-babies-10-580x870.jpg"
+            "/for babies/for-babies-10-1-580x870.jpg",
+            "/for babies/for-babies-10-580x870.jpg"
         ],
-        "precio": null,
+        "precio": 10.99,
         "estrellas": 4,
         "descripcion": "Descripción del producto",
         "en_stock": true
