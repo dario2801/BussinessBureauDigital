@@ -10,7 +10,7 @@ export default function SearchResult() {
     return (
         <React.Fragment>
             <Menubar />
-            <div className='grid mx-0'>
+            <div className='grid mx-0 mt-2'>
                 <div className='col-12 flex align-items-center justify-content-center relative '>
                     {/* //Contenedor Body*/}
                     <div className='grid w-full flex justify-content-center px-8'>

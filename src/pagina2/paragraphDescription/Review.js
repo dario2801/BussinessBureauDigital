@@ -11,43 +11,40 @@ export default function Categories() {
   ];
 
   return (
-    <div>
-      <div className="text-left">1 review for Blue Blouse</div>
-      <div className="col-12 mt-5 border-1 border-dashed border-400 h-auto">
-        <div className="grid mx-0">
-          <div className="w-12rem">
-            <ul className="list-none flex justify-content-center align-items-stretch justify-content-around">
-              {items.map((item) => {
-                return (
-                  <li className="w-full text-left" key={item.alt}>
-                    <img src={item.img} alt={item.alt} className="w-8rem"></img>
-                    <span className="text-sm capitalize block font-semibold colorBlue Quicksand">
-                      {item.text}
-                    </span>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-          <div className="col">
-            <p className="mt-3 mb-4 p-rating">
-              cmsmasters<strong>December 5,2018</strong>
-            </p>
-            <Rating
-              className="mt-3 mb-4 p-rating"
-              value={5}
-              readOnly
-              cancel={false}
-            />
-            <p className="mt-3 mb-4 p-rating text-left">
-              Mauris non sodales eros.Aenean sed commodo nisl.Pellentesque
-              habitant morbi tristique senectus et netus et malesuada fames ac
-              turpis egestas
-            </p>
-            <p className="mt-3 mb-4 p-rating">Rated 5 out of 5</p>
+    <React.Fragment>
+      <div className="fadeindown animation-duration-5000 animation-iteration-1">
+        <p className="text-left colorBlue Gilda_Display">1 review for Blue Blouse</p>
+        <div className="col-12 mt-3 Border Quicksand">
+          <div className="grid mx-0">
+            <div className="w-6rem mr-3 flex align-items-start justify-content-center">
+              <img
+                className="w-5rem my-2"
+                src={items[0].img}
+                alt={'avatar'} />
+            </div>
+            <div className="col my-2">
+              <h3 className="w-20rem text-left colorBlue Gilda_Display">
+                cmsmasters
+                <strong className="ml-2 text-sm">
+                  December 5, 2018
+                </strong>
+              </h3>
+              <Rating
+                className="my-2 p-rating"
+                value={5}
+                readOnly
+                cancel={false}
+              />
+              <p className="my-2 text-left text-800">
+                Mauris non sodales eros.Aenean sed commodo nisl.Pellentesque
+                habitant morbi tristique senectus et netus et malesuada fames ac
+                turpis egestas
+              </p>
+              <p className="text-left">Rated 5 out of 5</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 }

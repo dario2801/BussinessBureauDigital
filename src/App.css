@@ -161,7 +161,8 @@
   font-size: 12px;
   padding-top: 5px;
   padding-bottom: 5px;
-  transform: translate(112px, 10px);
+  right: 0;
+  transform: translate(-10px, 15px);
   z-index: 3;
 }
 
@@ -191,8 +192,12 @@
 
 
 /* //Description Page 2 */
-
+.p-tabmenu .p-tabmenu-nav{
+  border: 0px !important;
+}
 .p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
-  border-color: #f1755c !important;
+  border-bottom: 10px solid transparent !important;
+  border-image: url('/src/utils/recursos/main/home-8.png') 12 round !important;
+  border-image-repeat: stretch;
   color: #f1755c !important;
 }

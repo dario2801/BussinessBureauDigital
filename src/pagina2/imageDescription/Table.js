@@ -30,11 +30,10 @@ export default function Categories() {
   ];
   return (
     <React.Fragment>
-      <div className="flex align-items-center justify-content-left">
-        <div className="flex w-full align-items-left justify-content-left px-3 py-1 h-auto font-semibold Quicksand  Border">
+      <div className="flex align-items-center justify-content-start">
+        <div className="flex w-full align-items-left justify-content-start px-3 py-1 h-auto font-semibold Quicksand  Border">
           <div className="grid mx-0 w-full">
             {fors.map((index, i) => {
-              console.log(i);
               const isLastItem = i === fors.length - 1;
               const isFirstItem = i === 0;
               const borderBottomClass = isLastItem ? "pb-4" : "border-bottom-1";
@@ -50,7 +49,7 @@ export default function Categories() {
                       {index.label}
                     </span>
                   </div>
-                  <span className="w-full ">{index.description}</span>
+                  <span className="w-full text-800">{index.description}</span>
                 </div>
               );
             })}

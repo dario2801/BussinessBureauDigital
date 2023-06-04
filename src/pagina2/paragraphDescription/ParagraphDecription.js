@@ -1,33 +1,3 @@
-// import React from "react";
-// import "../../App.css";
-// import { TabMenu } from "primereact/tabmenu";
-
-// const items = [
-//   {
-//     label: "DESCRIPTION",
-//     // className: "Guion"
-//   },
-//   {
-//     label: "ADDITIONAL INFORMATION",
-//     // className: "Guion"
-//   },
-//   {
-//     label: "REVIEWS(1)",
-//     // className: "Guion"
-//   },
-// ];
-
-// export default function ParagraphDesccription() {
-//   return (
-//     <div className="grid mx-0 w-full flex align-items-center justify-content-center my-4">
-//       <div className="col-10">
-//         <TabMenu
-//           className="flex align-items-center justify-content-center"
-//           model={items} />
-//       </div>
-//     </div>
-//   );
-// }
 import React, { useState } from "react";
 import "../../App.css";
 import { TabMenu } from "primereact/tabmenu";
@@ -42,7 +12,7 @@ export default function ParagraphDesccription() {
   };
 
   const descriptionText = (
-    <p className="text-left">
+    <p className="text-left text-800 fadeindown animation-duration-5000 animation-iteration-1">
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet
       lectus sit amet elit interdum, sed semper metus consectetur. Vivamus eu
       elit euismod, tincidunt tellus a, congue lacus. Nam ullamcorper, sem vel
@@ -70,9 +40,9 @@ export default function ParagraphDesccription() {
 
   return (
     <div className="grid mx-0 w-full flex align-items-center justify-content-center my-4">
-      <div className="col-10">
+      <div className="col-11">
         <TabMenu
-          className="flex align-items-center justify-content-center"
+          className="flex align-items-center justify-content-center "
           model={[
             { label: "DESCRIPTION" },
             { label: "ADDITIONAL INFORMATION" },

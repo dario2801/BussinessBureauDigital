@@ -4,7 +4,6 @@ import forBabies from '../../../utils/json/ForBabies.json';
 import forHome from '../../../utils/json/ForHome.json';
 import forGirls from '../../../utils/json/ForGirls.json';
 import forBoys from '../../../utils/json/ForBoys.json';
-import forPlay from '../../../utils/json/ForPlay.json';
 import prueba from "../../../utils/recursos/for play/toys-3-580x870.jpg"
 
 
@@ -13,7 +12,6 @@ export default function BestSellers() {
     const forHomeArray = forHome;
     const forGirlsArray = forGirls;
     const forBoysArray = forBoys;
-    const forPlayArray = forPlay;
 
     const fors = [
         {
@@ -35,12 +33,7 @@ export default function BestSellers() {
             label: "For Home",
             url: './',
             numbers: `(${forHomeArray.length})`
-        },
-        {
-            label: "For Play",
-            url: './',
-            numbers: `(${forPlayArray.length})`
-        },
+        }
     ];
 
     return (

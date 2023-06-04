@@ -44,7 +44,7 @@ export default function Footer(props) {
 
         }
     ];
-    const outStock = 'uppercase stock colorBlue Francois_One'
+    const outStock = 'uppercase stockMiniatura colorBlue Francois_One'
     const network = [
         {
             label: 'Instagram',
@@ -139,7 +139,7 @@ export default function Footer(props) {
                                     src={prueba3}
                                     alt='imagen1' />
 
-                                <span className={`${!stock ? outStock : ''}`}> out of stock</span>
+                                <span className={`${!stock ? outStock : 'hidden'}`}> out of stock</span>
                                 <span className='block text-sm text-center my-1 textOrange'>For Girls</span>
                                 <span className='block text-xl text-center colorBlue my-1 Gilda_Display'>Blue Blouse</span>
                                 {stock ?
