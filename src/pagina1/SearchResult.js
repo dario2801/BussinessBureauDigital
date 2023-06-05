@@ -27,7 +27,7 @@ export default function SearchResult() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            <Footer type={0} />
         </React.Fragment>
     )
 }

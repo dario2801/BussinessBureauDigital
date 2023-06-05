@@ -3,22 +3,19 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { Rating } from 'primereact/rating';
+import listProductFake from '../../utils/json/products.api.json';
 import kidsaus from '../../utils/recursos/main/logo(1).png';
 import footer1 from '../../utils/recursos/main/footer1.jpg';
 import footer2 from '../../utils/recursos/main/footer2.jpg';
 import footer3 from '../../utils/recursos/main/footer3.jpg';
 import footer4 from '../../utils/recursos/main/footer4.jpg';
 import footer5 from '../../utils/recursos/main/footer5.jpg';
+import { Link } from 'react-router-dom';
+import { Skeleton } from 'primereact/skeleton';
 
-import prueba1 from '../../utils/recursos/for home/for-home-1-1-580x870.jpg'
-import prueba2 from '../../utils/recursos/for home/for-home-13-1-580x870.jpg';
-import prueba3 from '../../utils/recursos/for home/for-home-14-580x870.jpg';
-import prueba4 from '../../utils/recursos/for home/for-home-1-580x870.jpg';
-import data from '../../utils/json/ForBabies.json';
+const countRelatedProducts = 4;
 
-export default function Footer() {
-    const [page, setPage] = React.useState(1);
-    const [stock, setStock] = React.useState(false);
+export default function Footer({ type, category }) {
 
     const items = [
         {
@@ -44,7 +41,6 @@ export default function Footer() {
 
         }
     ];
-    const outStock = 'uppercase stockMiniatura colorBlue Francois_One'
     const network = [
         {
             label: 'Instagram',
@@ -60,10 +56,55 @@ export default function Footer() {
 
         }
     ];
+
+    const RelatedItemProduct = ({ product }) => {
+        return (
+            <div className='mx-3 relative'>
+                {!product.stock && (
+                    <span className='uppercase stockMiniatura colorBlue Francois_One absolute -translate-x-100 right-0 mt-2'> out of stock</span>
+                )}
+                <Link to={`/product/${product.sku}`} reloadDocument>
+                    <img className='w-full'
+                        src={`${process.env.PUBLIC_URL}/images/${product.images[0].filename}`}
+                        alt={product.name} />
+                </Link>
+                <Link to={`/category/${product.category.slug}`} reloadDocument className='no-underline block text-sm text-center my-1 link-hover-blue textOrange'>{product.category.name}</Link>
+                <Link to={`/product/${product.sku}`} reloadDocument className='no-underline block text-xl text-center link-hover colorBlue my-1 Gilda_Display'>{product.name}</Link>
+                {product.stock && (
+                    <span className='block text-sm text-center my-1 colorBlue'>${product.price}</span>
+                )}
+                <span className='flex align-items-center justify-content-center'>
+                    <Rating
+                        className='p-rating'
+                        value={product.rating}
+                        readOnly
+                        cancel={false}
+                    />
+                </span>
+            </div>
+        );
+    };
+
+    function getListRelatedItems() {
+        let listRet = [];
+        if (category !== null) {
+            const listProductsCategory = [...listProductFake.filter(ele => ele.category.slug === category.slug)];
+            console.log(listProductsCategory);
+
+            for (let index = 0; index < countRelatedProducts; index++) {
+                listRet.push(<RelatedItemProduct key={index} product={listProductsCategory[index]} />);
+            }
+        } else {
+            listRet.push(<Skeleton key={'a'} width="100%" height="8rem" />);
+        }
+
+        return listRet;
+    };
+
     return (
         <React.Fragment>
             <footer className='grid mx-0 flex align-items-center justify-content-center'>
-                {page === 0 ?
+                {type === 0 ?
                     <React.Fragment>
                         <div className='col-12 mt-8 mb-0'>
                             <h3 className='flex align-items-center justify-content-center text-2xl text-center uppercase font-medium colorBlue Francois_One'>instagram @kidsrus</h3>
@@ -102,74 +143,8 @@ export default function Footer() {
                             <h3 className='flex align-items-center justify-content-center text-2xl text-center uppercase font-medium colorBlue Francois_One'>related products</h3>
                             <span className='Guion'></span>
                         </div>
-                        <div className='col-6 flex align-items-center justify-content-center my-6'>
-                            <div className='col-3'>
-                                <img className='w-full'
-                                    src={prueba1}
-                                    alt='imagen1' />
-                                <span className='block text-sm text-center my-1 textOrange'>For Girls</span>
-                                <span className='block text-xl text-center colorBlue my-1 Gilda_Display'>Blue Blouse</span>
-                                <span className='block text-sm text-center my-1 colorBlue'>$33.00</span>
-                                <span className='flex align-items-center justify-content-center'>
-                                    <Rating
-                                        className='p-rating' value={data[0].estrellas}
-                                        readOnly
-                                        cancel={false}
-                                    />
-                                </span>
-                            </div>
-                            <div className='col-3'>
-                                <img className='w-full'
-                                    src={prueba2}
-                                    alt='imagen1' />
-                                <span className='block text-sm text-center my-1 textOrange'>For Girls</span>
-                                <span className='block text-xl text-center colorBlue my-1 Gilda_Display'>Blue Blouse</span>
-                                <span className='block text-sm text-center my-1 colorBlue'>$33.00</span>
-                                <span className='flex align-items-center justify-content-center'>
-                                    <Rating
-                                        className='p-rating'
-                                        value={data[1].estrellas}
-                                        readOnly
-                                        cancel={false}
-                                    />
-                                </span>
-                            </div>
-                            <div className='col-3 relative'>
-                                <img className={`w-full`}
-                                    src={prueba3}
-                                    alt='imagen1' />
-
-                                <span className={`${!stock ? outStock : 'hidden'}`}> out of stock</span>
-                                <span className='block text-sm text-center my-1 textOrange'>For Girls</span>
-                                <span className='block text-xl text-center colorBlue my-1 Gilda_Display'>Blue Blouse</span>
-                                {stock ?
-                                    <span className='block text-sm text-center my-1 colorBlue'>$33.00</span>
-                                    :
-                                    <span className='block text-sm text-center my-1 colorBlue h-1rem'></span>}
-                                <span className='flex align-items-center justify-content-center'>
-                                    <Rating
-                                        className={'p-rating'}
-                                        value={data[4].estrellas}
-                                        readOnly
-                                        cancel={false}
-                                    />
-                                </span>
-                            </div>
-                            <div className='col-3'>
-                                <img className='w-full'
-                                    src={prueba4}
-                                    alt='imagen1' />
-                                <span className='block text-sm text-center my-1 textOrange'>For Girls</span>
-                                <span className='block text-xl text-center colorBlue my-1 Gilda_Display'>Blue Blouse</span>
-                                <span className='block text-sm text-center my-1 colorBlue'>$33.00</span>
-                                <span className='flex align-items-center justify-content-center'>
-                                    <Rating
-                                        className='p-rating' value={data[9].estrellas}
-                                        readOnly
-                                        cancel={false}
-                                    />
-                                </span>
-                            </div>
+                        <div className='col-10 flex align-items-start justify-content-center my-6'>
+                            {getListRelatedItems().map(ele => ele)}
                         </div>
                     </React.Fragment>
                 }

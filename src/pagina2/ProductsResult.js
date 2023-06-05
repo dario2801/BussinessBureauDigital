@@ -68,7 +68,7 @@ export default function ProductsResult() {
           </div>
         </React.Fragment>
       )}
-      <Footer />
+      <Footer type={1} category={product ? product.category : null} />
     </React.Fragment>
   );
 }

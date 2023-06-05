@@ -42,7 +42,7 @@ export default function Items({ category }) {
                     onMouseOver={handleMouseOver}
                     onMouseOut={handleMouseOut}
                 >
-                    <Link to={`/product/${product.sku}`}>
+                    <Link to={`/product/${product.sku}`} reloadDocument>
                         <img
                             className={`w-full imgContainer${imgProductAnimation}`}
                             src={imgProduct}
@@ -65,10 +65,10 @@ export default function Items({ category }) {
                         </div>
                     )}
                 </div>
-                <Link to={`/category/${product.category.slug}`} className='no-underline text-sm text-center my-1 textOrange link-hover-blue'>
+                <Link to={`/category/${product.category.slug}`} reloadDocument className='no-underline text-sm text-center my-1 textOrange link-hover-blue'>
                     {product.category.name}
                 </Link>
-                <Link to={`/product/${product.sku}`} className='no-underline text-lg text-center colorBlue link-hover my-1 Gilda_Display'>
+                <Link to={`/product/${product.sku}`} reloadDocument className='no-underline text-lg text-center colorBlue link-hover my-1 Gilda_Display'>
                     {product.name}
                 </Link>
                 {product.stock && (
