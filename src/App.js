@@ -7,14 +7,18 @@ import SearchResult from "./pagina1/SearchResult";
 import ProductsResult from "./pagina2/ProductsResult";
 
 function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route exact path="/" element={<SearchResult />} />
-        <Route exact path="/products" element={<ProductsResult />} />
-      </Routes>
-    </Router>
-  );
+    return (
+        <Router>
+            <Routes>
+                <Route exact path="/" element={<SearchResult />}>
+                    <Route exact path="category/:slugCategory" element={<SearchResult />}/>
+                </Route>
+                <Route path="/product">
+                    <Route exact path=":sku" element={<ProductsResult />}/>
+                </Route>
+            </Routes>
+        </Router>
+    );
 }
 
 export default App;

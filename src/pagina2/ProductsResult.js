@@ -5,23 +5,45 @@ import SeccionDesccription from "./headerDescription/SeccionDescription";
 import ImageDesccription from "./imageDescription/ImageDescription";
 import ParagraphDesccription from "./paragraphDescription/ParagraphDecription";
 import Footer from "../pagina1/footer/Footer";
+import { redirect, useParams } from "react-router-dom";
+import listProductFake from '../utils/json/products.api.json';
+
 export default function ProductsResult() {
+  const [product, setProduct] = React.useState();
+  let {sku} = useParams();
+  console.log(sku);
+
+  React.useEffect(() => {
+    if (sku) {
+      setTimeout(() => {
+        const findProduct = listProductFake.find(ele => ele.sku === sku);
+        if (findProduct) {
+          setProduct(findProduct);
+        } else {
+          redirect('/');
+        }
+      }, 1500);
+    } else {
+      redirect('/');
+    }
+  }, [sku]);
+
   return (
     <React.Fragment>
       <Menubar />
       <div className="grid mx-0">
         <div className="col-12 flex align-items-center justify-content-center relative px-8">
-          <SeccionDesccription />
+          <SeccionDesccription product={product} />
         </div>
         {/* //Contenedor Body*/}
         {/* //descripcion de producto */}
         <div className="col-12 flex align-items-center justify-content-center relative px-8">
-          <ImageDesccription />
+          <ImageDesccription product={product} />
         </div>
         {/* parrafo descriptivo */}
       </div>
       <div className="col-12 flex align-items-center justify-content-center relative px-8">
-        <ParagraphDesccription />
+        <ParagraphDesccription product={product} />
       </div>
       <Footer />
     </React.Fragment>

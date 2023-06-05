@@ -36,6 +36,14 @@
   color: #6a839a;
 }
 
+.link-hover:hover {
+  color: #f1755c;
+}
+
+.link-hover-blue:hover {
+  color: #6a839a;
+}
+
 .colorOrange {
   background-color: #f1755c;
 }
@@ -74,7 +82,7 @@
   background-color: transparent !important;
 }
 
-::placeholder {
+#input-newletter::placeholder {
   color: white;
 }
 

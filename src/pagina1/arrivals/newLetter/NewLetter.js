@@ -1,17 +1,5 @@
 import React from 'react';
 import { InputText } from "primereact/inputtext";
-// import { InputText } from "primereact/inputtext";
-// import forBabies from '../../../utils/json/ForBabies.json';
-// import forHome from '../../../utils/json/ForHome.json';
-// import forGirls from '../../../utils/json/ForGirls.json';
-// import forBoys from '../../../utils/json/ForBoys.json';
-// import forPlay from '../../../utils/json/ForPlay.json';
-
-// const forBabiesArray = forBabies;
-// const forHomeArray = forHome;
-// const forGirlsArray = forGirls;
-// const forBoysArray = forBoys;
-// const forPlayArray = forPlay;
 
 export default function NewLetter() {
     const [value, setValue] = React.useState('');
@@ -34,6 +22,7 @@ export default function NewLetter() {
                             <InputText
                                 onChange={handleOnChange}
                                 value={value}
+                                id='input-newletter'
                                 className='col-12 w-full text-0 colorOrange border-white BorderInput my-3 py-3 pl-3'
                                 placeholder="Your Email Address*" />
                             <span className='col-12 surface-0 mb-2'>

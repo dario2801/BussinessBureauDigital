@@ -1,67 +1,26 @@
 import React from 'react';
+import { Skeleton } from 'primereact/skeleton';
+import { Divider } from 'primereact/divider';
+import { Link } from 'react-router-dom';
 import { InputText } from "primereact/inputtext";
 import { BsSearch } from "react-icons/bs";
-import forBabies from '../../../utils/json/ForBabies.json';
-import forHome from '../../../utils/json/ForHome.json';
-import forGirls from '../../../utils/json/ForGirls.json';
-import forBoys from '../../../utils/json/ForBoys.json';
-import forPlay from '../../../utils/json/ForPlay.json';
 import listProductFake from '../../../utils/json/products.api.json';
-
-const forBabiesArray = forBabies;
-const forHomeArray = forHome;
-const forGirlsArray = forGirls;
-const forBoysArray = forBoys;
-const forPlayArray = forPlay;
-
-const listCategory = [
-    { name: "For Babies", slug: "for-babies" },
-    { name: "For Boys", slug: "for-boys" },
-    { name: "For Girls", slug: "for-girls" },
-    { name: "For Home", slug: "for-home" },
-    { name: "For Play", slug: "for-play" }
-];
 
 export default function Categories() {
     const [listCategory, setListCategory] = React.useState();
-    const fors = [
-        {
-            label: "For Babies",
-            url: './',
-            numbers: `(${forBabiesArray.length})`
-        },
-        {
-            label: "For Boys",
-            url: './',
-            numbers: `(${forBoysArray.length})`
-        },
-        {
-            label: "For Girls",
-            url: './',
-            numbers: `(${forGirlsArray.length})`
-        },
-        {
-            label: "For Home",
-            url: './',
-            numbers: `(${forHomeArray.length})`
-        },
-        {
-            label: "For Play",
-            url: './',
-            numbers: `(${forPlayArray.length})`
-        },
-    ];
 
     React.useEffect(() => {
         let listCategory = [];
         setTimeout(() => {
             listProductFake.forEach(ele => {
-                if (listCategory.length === 0 || !listCategory.same(cat => cat.slug === ele.category.slug)) {
-                    listCategory.push({ name: "For Babies", slug: "for-babies" });
+                if (listCategory.length === 0 || !listCategory.find(cat => cat.slug === ele.category.slug)) {
+                    listCategory.push({ name: ele.category.name, slug: ele.category.slug, countProduct: 1 });
+                } else {
+                    listCategory.find(cat => cat.slug === ele.category.slug).countProduct++;
                 }
             });
-            setListCategory();
-        }, []);
+            setListCategory(listCategory);
+        }, 1500);
     }, []);
 
     return (
@@ -75,33 +34,49 @@ export default function Categories() {
             <div className='flex align-items-center justify-content-start mt-5 mb-2'>
                 <span className='text-xl text-center uppercase colorBlue Francois_One'>categories</span>
             </div>
-            <div className='flex align-items-center justify-content-center'>
-                <div className="flex w-full align-items-center justify-content-center px-3 py-1 h-auto font-light Francois_One Border">
-                    <div className='grid mx-0'>
-                        {fors.map((index, i) => {
-                            console.log(i)
-                            const isLastItem = i === fors.length - 1;
-                            const isFirstItem = i === 0;
-                            const borderBottomClass = isLastItem ? 'pb-4' : 'border-bottom-1';
-                            const SpacingClass = isFirstItem ? 'pt-5' : 'py2';
-
-                            return (
-                                <div
-                                    key={index.label}
-                                    className={`col-12 flex align-items-center justify-content-between w-full  border-400 ${SpacingClass} ${borderBottomClass}`}
-                                >
-                                    <a className='no-underline colorBlue ' href='./'>
-                                        {index.label}
-                                    </a>
-                                    <span className='colorBlue'>
-                                        {index.numbers}
-                                    </span>
-                                </div>
-                            );
-                        })}
+            {listCategory ? (
+                <div className='flex align-items-center justify-content-center fadein'>
+                    <div className="flex w-full align-items-center justify-content-center px-3 py-1 h-auto font-light Francois_One Border">
+                        <div className='flex flex-column w-full py-4'>
+                            {listCategory.map((ele, i) => {
+                                return (
+                                    <React.Fragment key={i}>
+                                        <Link className="no-underline" to={`category/${ele.slug}`} >
+                                        <div className={`flex align-items-center justify-content-between w-full border-400`}>
+                                            <span className='colorBlue link-hover'>{ele.name}</span>
+                                            <span className='colorBlue'>({ele.countProduct})</span>
+                                        </div>
+                                        </Link>
+                                        {(i !== listCategory.length - 1) && (
+                                            <Divider className='mb-3 mt-2' />
+                                        )}
+                                    </React.Fragment>
+                                );
+                            })}
+                        </div>
                     </div>
                 </div>
-            </div>
+            ) : (
+                <div className='flex flex-column'>
+                    <div className="w-full px-3 py-4 h-auto font-light Francois_One Border">
+                        <div className={`w-full border-400`}>
+                            <Skeleton height="1rem" width='100%'></Skeleton>
+                        </div>
+                        <Divider className='mb-3 mt-2' />
+                        <div className={`w-full border-400`}>
+                            <Skeleton height="1rem" width='100%'></Skeleton>
+                        </div>
+                        <Divider className='mb-3 mt-2' />
+                        <div className={`w-full border-400`}>
+                            <Skeleton height="1rem" width='100%'></Skeleton>
+                        </div>
+                        <Divider className='mb-3 mt-2' />
+                        <div className={`w-full border-400`}>
+                            <Skeleton height="1rem" width='100%'></Skeleton>
+                        </div>
+                    </div>
+                </div>
+            )}
         </React.Fragment>
     );
 }

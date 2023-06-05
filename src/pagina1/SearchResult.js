@@ -1,12 +1,15 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 import './../App.css';
 import Menubar from './menu/MenuBar';
 import Header from './header/Header';
-import Categories from './categories/Categories';
+import CategoriesBanner from './categories/CategoriesBanner';
 import Arrivals from './arrivals/Arrivals';
 import Footer from './footer/Footer';
 
 export default function SearchResult() {
+    let { slugCategory } = useParams();
+    
     return (
         <React.Fragment>
             <Menubar />
@@ -17,9 +20,9 @@ export default function SearchResult() {
                         {/* //Apartado header */}
                         <Header />
                         {/* //Zona circular */}
-                        <Categories />
+                        <CategoriesBanner />
                         {/* //Nuevas Llegadas */}
-                        <Arrivals />
+                        <Arrivals category={slugCategory} />
                         {/* //Footer de la Web */}
                     </div>
                 </div>
