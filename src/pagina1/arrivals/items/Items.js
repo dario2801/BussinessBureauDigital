@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const countProducts = 9;
 
-export default function Items({category}) {
+export default function Items({ category }) {
     const [gridProducts, setGridProducts] = React.useState();
 
     const ItemProduct = ({ product }) => {
@@ -42,11 +42,13 @@ export default function Items({category}) {
                     onMouseOver={handleMouseOver}
                     onMouseOut={handleMouseOut}
                 >
-                    <img
-                        className={`w-full imgContainer${imgProductAnimation}`}
-                        src={imgProduct}
-                        alt={product.name}
-                    />
+                    <Link to={`/product/${product.sku}`}>
+                        <img
+                            className={`w-full imgContainer${imgProductAnimation}`}
+                            src={imgProduct}
+                            alt={product.name}
+                        />
+                    </Link>
                     {product.stock ? (
                         <div className={`fadeinup transition-all transition-ease-in-out transition-duration-500 w-full flex align-items-center justify-content-center uppercase colorOrange absolute${showButtonShop ? ' -translate-y-100' : ' translate-y-100'}`} >
                             <span className='py-1 my-1 w-full mx-1 text-center text-0 border-white Francois_One Border'>
@@ -76,11 +78,11 @@ export default function Items({category}) {
         );
     };
 
-    function getListItems () {
+    function getListItems() {
         let listRet = [];
         if (!category) {
             let productUse = [];
-    
+
             for (let index = 0; index < countProducts; index++) {
                 let posProduct = 0;
                 do {
@@ -108,8 +110,8 @@ export default function Items({category}) {
 
     if (gridProducts) {
         return (
-            <div className='grid'>{gridProducts.length > 0 
-                ? gridProducts.map(ele => ele) 
+            <div className='grid'>{gridProducts.length > 0
+                ? gridProducts.map(ele => ele)
                 : <h3 className='text-xl text-center w-full mt-8 colorBlue Francois_One'>There are no products associated with this category.</h3>
             }</div>
         );

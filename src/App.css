@@ -199,9 +199,9 @@ img.imgContainer:hover + .addToCar{
 .p-tabmenu .p-tabmenu-nav {
   border: 0px !important;
 }
-.p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
+/* .p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
   border-bottom: 10px solid transparent !important;
   border-image: url("/src/utils/recursos/main/home-8.png") 12 round !important;
   border-image-repeat: stretch;
   color: #f1755c !important;
-}
+} */

@@ -1,17 +1,6 @@
 import React from "react";
-// import forBabies from '../../../utils/json/ForBabies.json';
-// import forHome from '../../../utils/json/ForHome.json';
-// import forGirls from '../../../utils/json/ForGirls.json';
-// import forBoys from '../../../utils/json/ForBoys.json';
-// import forPlay from '../../../utils/json/ForPlay.json';
 
-// const forBabiesArray = forBabies;
-// const forHomeArray = forHome;
-// const forGirlsArray = forGirls;
-// const forBoysArray = forBoys;
-// const forPlayArray = forPlay;
-
-export default function Categories() {
+export default function Table() {
   const fors = [
     {
       label: "Color:",
