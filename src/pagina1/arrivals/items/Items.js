@@ -66,7 +66,7 @@ export default function Items({category}) {
                 <Link to={`/category/${product.category.slug}`} className='no-underline text-sm text-center my-1 textOrange link-hover-blue'>
                     {product.category.name}
                 </Link>
-                <Link to={`/product/BABY02`} className='no-underline text-lg text-center colorBlue link-hover my-1 Gilda_Display'>
+                <Link to={`/product/${product.sku}`} className='no-underline text-lg text-center colorBlue link-hover my-1 Gilda_Display'>
                     {product.name}
                 </Link>
                 {product.stock && (

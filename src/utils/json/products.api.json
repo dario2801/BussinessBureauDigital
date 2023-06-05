@@ -6,6 +6,7 @@
             "slug": "for-babies",
             "name": "For Babies"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-babies-1-580x870.jpg"
@@ -15,8 +16,10 @@
             }
         ],
         "price": 33.45,
-        "rating": 4,        
+        "rating": 4, 
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 0,
         "stock": false
     },
     {
@@ -26,6 +29,7 @@
             "slug": "for-babies",
             "name": "For Babies"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-babies-2-580x870.jpg"
@@ -36,7 +40,9 @@
         ],
         "price": 33.45,
         "rating": 5,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -46,6 +52,7 @@
             "slug": "for-babies",
             "name": "For Babies"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-babies-3-580x870.jpg"
@@ -56,7 +63,9 @@
         ],
         "price": 33.45,
         "rating": 3,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -66,6 +75,7 @@
             "slug": "for-babies",
             "name": "For Babies"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-babies-4-580x870.jpg"
@@ -76,7 +86,9 @@
         ],
         "price": 33.45,
         "rating": 2,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 0,
         "stock": false
     },
     {
@@ -86,6 +98,7 @@
             "slug": "for-babies",
             "name": "For Babies"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-babies-5-580x870.jpg"
@@ -96,7 +109,9 @@
         ],
         "price": 40.25,
         "rating": 4,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 0,
         "stock": false
     },
     {
@@ -106,6 +121,7 @@
             "slug": "for-babies",
             "name": "For Babies"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-babies-6-580x870.jpg"
@@ -116,7 +132,9 @@
         ],
         "price": 25.95,
         "rating": 5,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -126,6 +144,7 @@
             "slug": "for-babies",
             "name": "For Babies"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-babies-7-580x870.jpg"
@@ -136,7 +155,9 @@
         ],
         "price": 25.95,
         "rating": 3,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -146,6 +167,7 @@
             "slug": "for-babies",
             "name": "For Babies"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-babies-8-580x870.jpg"
@@ -156,7 +178,9 @@
         ],
         "price": 20.99,
         "rating": 4,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -166,6 +190,7 @@
             "slug": "for-babies",
             "name": "For Babies"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-babies-9-580x870.jpg"
@@ -176,7 +201,9 @@
         ],
         "price": 43.99,
         "rating": 3,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 0,
         "stock": false
     },
     {
@@ -186,6 +213,7 @@
             "slug": "for-babies",
             "name": "For Babies"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-babies-10-580x870.jpg"
@@ -196,7 +224,9 @@
         ],
         "price": 50.25,
         "rating": 4,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 0,
         "stock": false
     },
     {
@@ -206,6 +236,7 @@
             "slug": "for-babies",
             "name": "For Babies"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-babies-11-580x870.jpg"
@@ -216,7 +247,9 @@
         ],
         "price": 33.95,
         "rating": 2,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     
@@ -227,6 +260,7 @@
             "slug": "for-boys",
             "name": "For Boys"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "boys-1-580x870.jpg"
@@ -240,7 +274,9 @@
         ],
         "price": 50.95,
         "rating": 4,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -250,6 +286,7 @@
             "slug": "for-boys",
             "name": "For Boys"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "boys-2-580x870(1).jpg"
@@ -263,7 +300,9 @@
         ],
         "price": 50.95,
         "rating": 4,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -273,6 +312,7 @@
             "slug": "for-boys",
             "name": "For Boys"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "boys-3-580x870(1).jpg"
@@ -286,7 +326,9 @@
         ],
         "price": 40.95,
         "rating": 3,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -296,6 +338,7 @@
             "slug": "for-boys",
             "name": "For Boys"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "boys-4-580x870.jpg"
@@ -309,7 +352,9 @@
         ],
         "price": 40.95,
         "rating": 3,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -319,6 +364,7 @@
             "slug": "for-boys",
             "name": "For Boys"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "boys-5-580x870.jpg"
@@ -332,7 +378,9 @@
         ],
         "price": 60.95,
         "rating": 5,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -342,6 +390,7 @@
             "slug": "for-boys",
             "name": "For Boys"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "boys-6-580x870.jpg"
@@ -352,7 +401,9 @@
         ],
         "price": 60.95,
         "rating": 5,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 0,
         "stock": false
     },
     {
@@ -362,6 +413,7 @@
             "slug": "for-boys",
             "name": "For Boys"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "boys-7-580x870.jpg"
@@ -369,7 +421,9 @@
         ],
         "price": 20.95,
         "rating": 3,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -379,6 +433,7 @@
             "slug": "for-boys",
             "name": "For Boys"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "boys-8-580x870(1).jpg"
@@ -392,7 +447,9 @@
         ],
         "price": 30.95,
         "rating": 3,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 0,
         "stock": false
     },
     {
@@ -402,6 +459,7 @@
             "slug": "for-boys",
             "name": "For Boys"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "boys-10-580x870.jpg"
@@ -412,7 +470,9 @@
         ],
         "price": 20.55,
         "rating": 4,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -422,6 +482,7 @@
             "slug": "for-boys",
             "name": "For Boys"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "boys-11-580x870.jpg"
@@ -432,7 +493,9 @@
         ],
         "price": 45.55,
         "rating": 3,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     
@@ -443,6 +506,7 @@
             "slug": "for-girls",
             "name": "For Girls"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "girls-1-1-580x870.jpg"
@@ -453,7 +517,9 @@
         ],
         "price": 54.55,
         "rating": 3,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -463,6 +529,7 @@
             "slug": "for-girls",
             "name": "For Girls"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "girls-2-2-580x870.jpg"
@@ -476,7 +543,9 @@
         ],
         "price": 38.55,
         "rating": 4,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -486,6 +555,7 @@
             "slug": "for-girls",
             "name": "For Girls"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "girls-3-1-580x870.jpg"
@@ -499,7 +569,9 @@
         ],
         "price": 58.55,
         "rating": 3,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 0,
         "stock": false
     },
     {
@@ -509,6 +581,7 @@
             "slug": "for-girls",
             "name": "For Girls"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "girls-4-2-580x870.jpg"
@@ -522,7 +595,9 @@
         ],
         "price": 37.55,
         "rating": 5,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 0,
         "stock": false
     },
     {
@@ -532,6 +607,7 @@
             "slug": "for-girls",
             "name": "For Girls"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "girls-6-2-580x870.jpg"
@@ -542,7 +618,9 @@
         ],
         "price": 47.55,
         "rating": 4,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -552,6 +630,7 @@
             "slug": "for-girls",
             "name": "For Girls"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "girls-7-1-580x870.jpg"
@@ -565,7 +644,9 @@
         ],
         "price": 39.89,
         "rating": 3,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -575,6 +656,7 @@
             "slug": "for-girls",
             "name": "For Girls"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "girls-8-1-580x870.jpg"
@@ -588,7 +670,9 @@
         ],
         "price": 42.25,
         "rating": 3,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -598,6 +682,7 @@
             "slug": "for-girls",
             "name": "For Girls"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "girls-9-580x870.jpg"
@@ -605,7 +690,9 @@
         ],
         "price": 22.25,
         "rating": 4,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -615,6 +702,7 @@
             "slug": "for-girls",
             "name": "For Girls"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "girls-10-1-580x870.jpg"
@@ -628,7 +716,9 @@
         ],
         "price": 29.95,
         "rating": 2,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -638,6 +728,7 @@
             "slug": "for-girls",
             "name": "For Girls"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "girls-11-1-580x870.jpg"
@@ -648,7 +739,9 @@
         ],
         "price": 38.95,
         "rating": 3,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     
@@ -659,6 +752,7 @@
             "slug": "for-home",
             "name": "For Home"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-home-1-580x870.jpg"
@@ -669,7 +763,9 @@
         ],
         "price": 10.95,
         "rating": 4,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -679,6 +775,7 @@
             "slug": "for-home",
             "name": "For Home"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-home-2-580x870.jpg"
@@ -689,7 +786,9 @@
         ],
         "price": 12.55,
         "rating": 3,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -699,6 +798,7 @@
             "slug": "for-home",
             "name": "For Home"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-home-3-580x870.jpg"
@@ -709,7 +809,9 @@
         ],
         "price": 12.55,
         "rating": 4,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 0,
         "stock": false
     },
     {
@@ -719,6 +821,7 @@
             "slug": "for-home",
             "name": "For Home"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-home-4-580x870.jpg"
@@ -726,7 +829,9 @@
         ],
         "price": 3.55,
         "rating": 4,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 0,
         "stock": false
     },
     {
@@ -736,6 +841,7 @@
             "slug": "for-home",
             "name": "For Home"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-home-5-580x870.jpg"
@@ -746,7 +852,9 @@
         ],
         "price": 12.55,
         "rating": 2,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -756,6 +864,7 @@
             "slug": "for-home",
             "name": "For Home"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-home-6-580x870.jpg"
@@ -763,7 +872,9 @@
         ],
         "price": 8.25,
         "rating": 4,        
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -773,6 +884,7 @@
             "slug": "for-home",
             "name": "For Home"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-home-7-580x870.jpg"
@@ -783,7 +895,9 @@
         ],
         "price": 4.25,
         "rating": 4,
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 0,
         "stock": false
     },
     {
@@ -793,6 +907,7 @@
             "slug": "for-home",
             "name": "For Home"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-home-8-580x870.jpg"
@@ -803,7 +918,9 @@
         ],
         "price": 5.45,
         "rating": 3,
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -813,6 +930,7 @@
             "slug": "for-home",
             "name": "For Home"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-home-9-580x870.jpg"
@@ -823,7 +941,9 @@
         ],
         "price": 1.95,
         "rating": 4,
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -833,6 +953,7 @@
             "slug": "for-home",
             "name": "For Home"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-home-10-580x870.jpg"
@@ -843,7 +964,9 @@
         ],
         "price": 18.95,
         "rating": 2,
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -853,6 +976,7 @@
             "slug": "for-home",
             "name": "For Home"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-home-11-580x870.jpg"
@@ -863,7 +987,9 @@
         ],
         "price": 11.45,
         "rating": 5,
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -873,6 +999,7 @@
             "slug": "for-home",
             "name": "For Home"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-home-12-580x870.jpg"
@@ -883,7 +1010,9 @@
         ],
         "price": 8.45,
         "rating": 3,
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -893,6 +1022,7 @@
             "slug": "for-home",
             "name": "For Home"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-home-13-580x870.jpg"
@@ -903,7 +1033,9 @@
         ],
         "price": 6.25,
         "rating": 4,
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -913,6 +1045,7 @@
             "slug": "for-home",
             "name": "For Home"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-home-14-580x870.jpg"
@@ -923,7 +1056,9 @@
         ],
         "price": 6.25,
         "rating": 4,
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -933,6 +1068,7 @@
             "slug": "for-home",
             "name": "For Home"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-home-15-580x870.jpg"
@@ -943,7 +1079,9 @@
         ],
         "price": 10.65,
         "rating": 5,
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -953,6 +1091,7 @@
             "slug": "for-home",
             "name": "For Home"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "for-home-16-580x870.jpg"
@@ -963,7 +1102,9 @@
         ],
         "price": 13.65,
         "rating": 4,
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     
@@ -974,6 +1115,7 @@
             "slug": "for-play",
             "name": "For Play"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "toys-1-580x870.jpg"
@@ -984,7 +1126,9 @@
         ],
         "price": 3.85,
         "rating": 4,
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -994,6 +1138,7 @@
             "slug": "for-play",
             "name": "For Play"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "toys-2-580x870.jpg"
@@ -1001,7 +1146,9 @@
         ],
         "price": 8.55,
         "rating": 3,
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -1011,6 +1158,7 @@
             "slug": "for-play",
             "name": "For Play"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "toys-3-580x870.jpg"
@@ -1018,7 +1166,9 @@
         ],
         "price": 8.55,
         "rating": 3,
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     },
     {
@@ -1028,6 +1178,7 @@
             "slug": "for-play",
             "name": "For Play"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "toys-4-580x870.jpg"
@@ -1038,7 +1189,9 @@
         ],
         "price": 4.25,
         "rating": 3,
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 0,
         "stock": false
     },
     {
@@ -1048,6 +1201,7 @@
             "slug": "for-play",
             "name": "For Play"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "toys-5-580x870.jpg"
@@ -1055,7 +1209,9 @@
         ],
         "price": 4.25,
         "rating": 4,
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 0,
         "stock": false
     },
     {
@@ -1065,6 +1221,7 @@
             "slug": "for-play",
             "name": "For Play"
         },
+        "tags": ["Tag-01", "Tag-02", "Tag-03"],
         "images": [
             {
                 "filename": "toys-6-580x870.jpg"
@@ -1072,7 +1229,9 @@
         ],
         "price": 1.95,
         "rating": 2,
+        "information": "Nulla malesuada ligula dolor, in lobortis turpis tempus et. Curabitur accumsan urna odio, vitae tincidunt dolor ornare a. Duis in viverra neque. Fusce dignissim viverra viverra. Aenean et purus sit amet tellus accumsan bibendum id ut velit. Curabitur feugiat sem in eleifend congue. Cras magna felis, accumsan eget massa non, commodo tempus mi. Vivamus non ipsum iaculis, tincidunt diam eu, finibus tellus.",       
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "inventory": 10,
         "stock": true
     }
 ]

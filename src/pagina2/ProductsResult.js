@@ -11,7 +11,6 @@ import listProductFake from '../utils/json/products.api.json';
 export default function ProductsResult() {
   const [product, setProduct] = React.useState();
   let {sku} = useParams();
-  console.log(sku);
 
   React.useEffect(() => {
     if (sku) {

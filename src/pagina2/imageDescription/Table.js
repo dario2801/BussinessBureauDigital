@@ -13,7 +13,7 @@ import { BsSearch } from "react-icons/bs";
 // const forBoysArray = forBoys;
 // const forPlayArray = forPlay;
 
-export default function Categories() {
+export default function Table() {
   const fors = [
     {
       label: "SKU:",
