@@ -19,6 +19,11 @@ git clone https://github.com/tu-usuario/no-creado-aun.git
 # Una vez clonado
 ```
 npm install
+si hay problemas instalando pruebe con esta manera pues no esta actualizado y da error: 
+npm install
+npm install react-image-magnify --save --force
+npm install react-router-dom --save --force
+
 ```
 
 3. Iniciar la aplicación
