@@ -73,6 +73,11 @@
   border-radius: 0 !important;
 }
 
+.BorderBlue {
+  border: 2px dashed #6a839a !important;
+  border-radius: 0 !important;
+}
+
 .BorderInput {
   border: 1px dashed rgb(255, 255, 255) !important;
   border-radius: 0 !important;
@@ -133,6 +138,10 @@
   height: 10px;
 }
 
+.Translate {
+  transform: translate(3.2rem, -14.37rem);
+}
+
 .ContainerLupe {
   width: 2.8rem !important;
   height: 3rem !important;
@@ -181,7 +190,7 @@
   font-size: 12px;
   padding-top: 5px;
   padding-bottom: 5px;
-  transform: translate(-102px, 10px);
+  transform: translate(-8px, 3px);
   z-index: 3;
 }
 
@@ -191,7 +200,7 @@
   transform: translateY(0);
 }
 
-img.imgContainer:hover + .addToCar{
+img.imgContainer:hover+.addToCar {
   transform: translateY(-3.1rem);
 }
 
@@ -199,6 +208,7 @@ img.imgContainer:hover + .addToCar{
 .p-tabmenu .p-tabmenu-nav {
   border: 0px !important;
 }
+
 /* .p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
   border-bottom: 10px solid transparent !important;
   border-image: url("/src/utils/recursos/main/home-8.png") 12 round !important;

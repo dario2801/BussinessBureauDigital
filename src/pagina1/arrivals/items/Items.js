@@ -72,7 +72,7 @@ export default function Items({ category }) {
                     {product.name}
                 </Link>
                 {product.stock && (
-                    <span className='w-full text-sm text-center my-1 colorBlue'>{product.price}</span>
+                    <span className='w-full text-sm text-center my-1 colorBlue'>${product.price}</span>
                 )}
             </div>
         );

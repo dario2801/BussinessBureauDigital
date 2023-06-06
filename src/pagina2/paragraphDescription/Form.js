@@ -3,6 +3,7 @@ import { Rating } from "primereact/rating";
 import { InputText } from "primereact/inputtext";
 import { InputTextarea } from 'primereact/inputtextarea';
 export default function Form() {
+    const [value, setValue] = React.useState(null);
     return (
         <div className="my-8">
             <p className="text-center colorBlue Gilda_Display">Add to review</p>
@@ -16,9 +17,9 @@ export default function Form() {
                         Your Rates *
                     </h3>
                     <Rating
+                        value={value}
+                        onChange={(e) => setValue(e.value)}
                         className="my-1 p-rating"
-                        value={0}
-                        readOnly
                         cancel={false}
                     />
 

@@ -3,6 +3,7 @@ import logo from '../../utils/recursos/main/logo.png';
 import { FaRegHeart } from "react-icons/fa";
 import { BsCart } from "react-icons/bs";
 import { BsSearch } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 import '../../App.css';
 
@@ -65,7 +66,7 @@ export default function MenuBar() {
             </div>
             <div className='col-12 flex align-items-center justify-content-center'>
                 <ul className="menu relative h-2rem">
-                    <li className="menu-item">{items[0].label}</li>
+                    <Link className='no-underline menu-item colorBlue' to="/">{items[0].label}</Link>
                     <li className="menu-item">{items[1].label}</li>
                     <li className="menu-item">{items[2].label}</li>
                     <li className="menu-item">{items[3].label}</li>

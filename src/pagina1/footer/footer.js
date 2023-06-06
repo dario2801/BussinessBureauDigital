@@ -61,7 +61,7 @@ export default function Footer({ type, category }) {
         return (
             <div className='mx-3 relative'>
                 {!product.stock && (
-                    <span className='uppercase stockMiniatura colorBlue Francois_One absolute -translate-x-100 right-0 mt-2'> out of stock</span>
+                    <span className='uppercase stockMiniatura colorBlue Francois_One absolute  right-0 mt-2'> out of stock</span>
                 )}
                 <Link to={`/product/${product.sku}`} reloadDocument>
                     <img className='w-full'
@@ -95,7 +95,7 @@ export default function Footer({ type, category }) {
                 listRet.push(<RelatedItemProduct key={index} product={listProductsCategory[index]} />);
             }
         } else {
-            listRet.push(<Skeleton key={'a'} width="100%" height="8rem" />);
+            listRet.push([0, 1, 2, 3].map(index => { return <Skeleton className='mx-2' key={index} width="20%" height="14rem" /> }));
         }
 
         return listRet;
@@ -143,7 +143,7 @@ export default function Footer({ type, category }) {
                             <h3 className='flex align-items-center justify-content-center text-2xl text-center uppercase font-medium colorBlue Francois_One'>related products</h3>
                             <span className='Guion'></span>
                         </div>
-                        <div className='col-10 flex align-items-start justify-content-center my-6'>
+                        <div className='col-6 flex align-items-start justify-content-center my-6'>
                             {getListRelatedItems().map(ele => ele)}
                         </div>
                     </React.Fragment>

@@ -4,10 +4,16 @@ import imagenChicas from '../../utils/recursos/main/girls-power.jpg';
 export default function Header() {
     return (
         <React.Fragment>
-            <div className='col-7'>
+            <div className='col-7 relative'>
                 <img src={imagenPerro}
-                    className='w-full'
+                    className='w-full '
                     alt='Bebé y perrito' />
+                <div className='absolute Translate uppercase Francois_One'>
+                    <h1 className='text-left text-6xl text-0  font-light' style={{letterSpacing:'5px'}}>jumpsuits</h1>
+                    <p className='text-left text-0 text-sm my-3'>Confortable clothes, for your little babies</p>
+                    <div className='flex align-items-center justify-content-center mt-3 bg-white w-7rem uppercase h-3rem'>
+                        <p className='px-3 py-1 text-center Border BorderBlue colorBlue'>discover</p></div>
+                </div>
             </div>
             <div className='col-3 flex align-content-between flex-wrap'>
                 <img src={imagenChicas}

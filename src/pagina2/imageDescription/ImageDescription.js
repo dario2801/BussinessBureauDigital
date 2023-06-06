@@ -25,7 +25,8 @@ export default function ImageDescription({ product }) {
             <div className="col-3 p-0">
                 <div className="mx-0 w-full">
                     <div className="m-0 p-0 flex align-items-center justify-content-center">
-                        <ReactImageMagnify {...{
+                        <ReactImageMagnify
+                        className="z-2" {...{
                             smallImage: {
                                 alt: 'Image Products',
                                 isFluidWidth: true,
